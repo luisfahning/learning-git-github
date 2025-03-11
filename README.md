@@ -15,7 +15,11 @@ Repository about how to work with Git and Github.
 |git clone <url-repo-of-github>|Clonning repository|
 |git add <file or allfiles(.)>|Adding files in preparation area|
 |git push origin main|Send files from preparation area to github repository|
-|git remote add origin https://github.com/<repository>/<project_name>.git|link git with github|
+|git remove remote origin|Removes between git and github connection|
+|git remote -v|Verify which remote repository is connected|
+|git remote add origin https://github.com/<repository>/<project_name>.git|link git with github remote repository|
+|git checkout main|Change to correct branch|
 |git pull|Download and sync files in local git|
+|git pull origin main --allow-unrelated-histories|Forces git to merge differents histories|
 |git commit -m"<message of commit>"|Commit files|
 |git status|Verifying status about working area|
