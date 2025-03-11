@@ -4,7 +4,8 @@
 [Docs - Github](https://docs.github.com/)
 
 ## Basic commands
-|Command -----|--- Description|
+|Command|Description|
+|------|---------|
 |git init||
 |git config||
 |git add <file or allfiles(.)>|Adding files in preparation area|
@@ -13,4 +14,4 @@
 
 |git pull|Download and sync files in local git|
 
-|git commit -m"<message of commit>"||
+|git commit -m"<message of commit>"|Commit files|
